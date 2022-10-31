@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    max-width: 1270px;
+    
+}
+header{
+    height: 100px;
+    background-color: grey;
+    
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+body {
+    padding-left:  20px;
+    padding-right: 20px;
+}
+header h1{
+    font-size: 16px; 
+    padding-right:300px ;
+    padding-top: 30px;
+        
+ }
+ .menu{
+     padding-top: 30px;
+ }
+ .menu a{
+     text-align: center;
+     font-size: 14px;
+     color: rgb(175, 170, 170);
+     text-decoration: none;
+     padding-left: 10px;
+     padding-right: 10px;        
+ }
+ 
+ #imglogo{
+     
+     width: 10vh;
+     padding-right: 0;
+ }
+ #confer1{
+     color: white;
+ }
+
+ #comprar{
+    color: rgb(106, 209, 106);
+}
+.cajas{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin: 20px;
+    text-align: center;
+    
+    padding: 10px;
+    border: 30px;
+}
+
+.cj1{
+    border: 2px solid blue;
+    padding: 30px;
+}
+.cj2{
+    border: 2px solid rgb(142, 214, 247);
+    padding: 30px;
+}
+.cj3{
+    border: 2px solid rgb(245, 187, 61);
+    padding: 30px;
+}
+
+#p1,#p2,#p3{
+    font-size: 12px;
+    padding-top: 20px;
+}
+#porc1,#porc2,#porc3{
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 20px;
+}
+#valorticket{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#name1,#name2,#name3{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+
+}
+#valorticket{
+    font-size: 26px;
+}
+#ingresoinfo{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    
+}
+#inputnombre,#inputapellido{
+    height: 40px;
+    width: 300px;
+}
+#inputcorreo{
+    height: 40px;
+    width: 720px;
+}
+.cantidad_categoria{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 20px;
+    padding-top: 20px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    
+}
+#input_cant{
+    height: 40px;
+    width: 300px;
+    font-size: 16px;
+}
+#categoria1{
+    height: 40px;
+    width: 300px;
+
+}
+#input_total{
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(95, 209, 230);
+    font-size: 18px;
+    height: 40px;
+    width: 720px;
+    margin-top: 20px;
+   
+    margin-bottom: 20px;
+    margin-left: 250px;
+}
+ 
+.cate, .cant{
+    margin-bottom: 5px;
+}
+#parrafoventa{
+    font-size: small;
+}
+.total{
+    display: grid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1230px;
+    height: 50px;
+    
+}
+input{
+    padding-left: 15px;
+}
+.botones{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 200px;
+    padding-left: 300px;
+   
+}
+#reset,#resumen{
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    background-color:rgb(112, 202, 124);
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+    font-weight: 700;
+}
+
+footer{
+    background-color: rgb(4, 109, 104);
+    height: 100px;
+    display: flex;
+    
+    margin-top: 10px;
+    padding-top: 80px;
+        
+}   
+
+footer nav a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 50px;
+    
+}
+a:active {
+    background-color: black;
+}
+a:visited {
+    color:rgb(54, 24, 54) ;
+}
+
